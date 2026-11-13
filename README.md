@@ -1,9 +1,12 @@
 # Open Replication Repository & Reviewer Archive
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24202251.svg)](https://doi.org/10.5281/zenodo.24202251)
+
 **Manuscript Title**: Information-Enriched Forecast Combinations for Nepalese Bank Deposits: Retrospective Evidence and Reliability Limits  
 **Journal Target**: *Applied Stochastic Models in Business and Industry* (ASMBI, Wiley)  
 **Track**: Practitioner's Corner (Practitioner Paper)  
-**Public GitHub Repository**: https://github.com/Dips7/deposit-hybrid-forecast  
+**Permanent Zenodo DOI**: [https://doi.org/10.5281/zenodo.24202251](https://doi.org/10.5281/zenodo.24202251)  
+**Public GitHub Repository**: [https://github.com/Dips7/deposit-hybrid-forecast](https://github.com/Dips7/deposit-hybrid-forecast)  
 **Authors**: Dipesh Gurung¹, Deepika Sharma²*, Rashmi Dahiya²  
 1. *Department of Computer Science, Noida International University, Greater Noida, India*  
 2. *Department of Computer Science, Noida International University, Greater Noida, India*  
@@ -117,10 +120,10 @@ print('ALL ARCHIVE FILES PASS SHA-256 INTEGRITY VERIFICATION.')
 
 ---
 
-## 5. Repository Staging and Live Deposit Status
+## 5. Repository and Deposit Status
 
 This archive represents the self-contained replication bundle staged locally in the manuscript submission package (`reviewer_osf_archive/` and `reviewer_osf_archive.zip`).
-- **Staged Location**: `reviewer_osf_archive/`
-- **Target Public GitHub Repository**: `https://github.com/Dips7/deposit-hybrid-forecast`
+- **Live GitHub Repository**: `https://github.com/Dips7/deposit-hybrid-forecast`
+- **Permanent Zenodo DOI**: `https://doi.org/10.5281/zenodo.24202251`
 - **Replication Scope**: Enables 100% deterministic recalculation, statistical inference reproduction, and artifact auditing directly from the complete frozen evaluation records (`data/evaluation_DEVELOPMENT_FIT_V1.csv`). It does not perform raw model re-scraping from preliminary central bank records.
-- **Deposit Schedule**: Public activation on GitHub will be executed upon final author submission sign-off.
+- **Deposit Status**: Publicly active on GitHub and permanently archived on Zenodo with citable DOI (`10.5281/zenodo.24202251`).
