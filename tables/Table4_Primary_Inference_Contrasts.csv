@@ -1,0 +1,5 @@
+Comparison ID,Contrast Description,Reference Procedure,Challenger Procedure,Reference MAE (mn),Challenger MAE (mn),Mean Loss Difference (Delta MAE),Percentage Reduction (%),Moving Block Bootstrap 95% CI (L=12),Raw p-value,Holm-Adjusted p-value,Statistical Decision (alpha=0.05)
+C1,H_OMO vs E_EQ,E_EQ,H_OMO,25630.46,23546.37,2084.09,8.13,"[-631.03, +6,037.38]",0.2284,0.4568,Do not reject H0 (Superiority not established)
+C2,H_OMO vs H_Y,H_Y,H_OMO,24132.07,23546.37,585.7,2.43,"[-358.94, +1,573.16]",0.2398,0.4568,Do not reject H0 (Superiority not established)
+C3,H_OMO vs E_X,E_X,H_OMO,28403.62,23546.37,4857.25,17.1,"[+1,064.10, +10,175.40]",0.0441,0.1764,Do not reject H0 (Superiority not established)
+C4,H_OMO vs E_S,E_S,H_OMO,26494.79,23546.37,2948.43,11.13,"[+554.05, +6,781.87]",0.0837,0.2511,Do not reject H0 (Superiority not established)

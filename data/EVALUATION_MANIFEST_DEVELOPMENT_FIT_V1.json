@@ -1,0 +1,48 @@
+{
+  "manifest_version": "2.0.0",
+  "evaluation_id": "EVAL_DEVELOPMENT_FIT_V1_historical_development_1a0b1a515468",
+  "revision_id": "1a0b1a515468",
+  "scoring_timestamp_utc": "2026-10-30T03:37:07.231490+00:00",
+  "run_id": "DEVELOPMENT_FIT_V1",
+  "cohort": "historical_development",
+  "provenance_mode": "AUTHENTICATED_COMMITTED_RUN",
+  "forecast_lineage": {
+    "forecast_file": "outputs/development_fit_v1/forecasts_DEVELOPMENT_FIT_V1.csv",
+    "forecast_sha256": "88ad602fb2cdf63be606c12032aa4f4480450dbc984ca16611921c823fbcdf09",
+    "provenance_source": "COMMITMENT_RECEIPT",
+    "total_forecast_rows": 1337,
+    "total_cohort_origins": 191
+  },
+  "target_lineage": {
+    "targets_file": "data/derived/sealed_targets.csv",
+    "targets_sha256": "1c4fd442159655ffa9d848119b22d1c35dba0df2873de650065850b5e5546845",
+    "target_vintage_id": "UNVERIFIED_LOCAL_FILE_VINTAGE_STATUS_UNKNOWN",
+    "release_evidence": "UNVERIFIED_NO_OFFICIAL_RELEASE_EVIDENCE",
+    "is_external_vintage": false,
+    "vintage_description": "canonical_sealed_targets:1c4fd4421596",
+    "total_target_rows": 268,
+    "unobserved_targets_count": 0,
+    "eligible_targets_count": 1337,
+    "unobserved_target_periods": []
+  },
+  "specification_lineage": {
+    "evaluation_specification_file": "protocol/EVALUATION_SPECIFICATION.json",
+    "evaluation_specification_sha256": "9ba6d38c94af7af885ea2fa5c5515ec0a582549d2e56c6f03d0785a03774e528",
+    "inferential_eligible": true,
+    "primary_block_length_months": 12,
+    "sensitivity_block_lengths_months": [
+      6,
+      18
+    ]
+  },
+  "scoring_status": "COMPLETED_SCORED",
+  "artifacts": {
+    "evaluation_ledger": "outputs/development_fit_v1/evaluation_DEVELOPMENT_FIT_V1.csv",
+    "versioned_ledger": "outputs/development_fit_v1/evaluations/EVAL_DEVELOPMENT_FIT_V1_historical_development_1a0b1a515468/evaluation_ledger.csv",
+    "status_file": "outputs/development_fit_v1/SCORING_STATUS_DEVELOPMENT_FIT_V1.json",
+    "metrics_file": "outputs/development_fit_v1/metrics_DEVELOPMENT_FIT_V1.csv",
+    "versioned_metrics": "outputs/development_fit_v1/evaluations/EVAL_DEVELOPMENT_FIT_V1_historical_development_1a0b1a515468/metrics.csv",
+    "inference_summary_file": "outputs/development_fit_v1/inference_summary_DEVELOPMENT_FIT_V1.json",
+    "versioned_inference": "outputs/development_fit_v1/evaluations/EVAL_DEVELOPMENT_FIT_V1_historical_development_1a0b1a515468/inference_summary.json"
+  }
+}

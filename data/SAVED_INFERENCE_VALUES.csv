@@ -1,0 +1,13 @@
+block_family,comparison,reference,holm_p,raw_p
+primary_family_L12,C1,E_EQ,0.4568,0.2284
+primary_family_L12,C2,H_Y,0.4568,0.2398
+primary_family_L12,C3,E_X,0.1764,0.0441
+primary_family_L12,C4,E_S,0.2511,0.0837
+sensitivity_L6,C1,E_EQ,0.3482,0.1741
+sensitivity_L6,C2,H_Y,0.3482,0.2087
+sensitivity_L6,C3,E_X,0.072,0.018
+sensitivity_L6,C4,E_S,0.1977,0.0659
+sensitivity_L18,C1,E_EQ,0.5054,0.2527
+sensitivity_L18,C2,H_Y,0.5054,0.2668
+sensitivity_L18,C3,E_X,0.1996,0.0499
+sensitivity_L18,C4,E_S,0.3036,0.1012

@@ -1,0 +1,15 @@
+{
+  "origin_start": "2010-01",
+  "origin_end": "2025-11",
+  "n_origins": 191,
+  "n_rows": 1337,
+  "total_sq_loss_increment": 185176435.3774991,
+  "mid_2020_four_origin_sq_loss_increment": 8090488643.506897,
+  "no_new_fits": true,
+  "no_new_p_values": true,
+  "source_sha256": {
+    "outputs/development_fit_v1/evaluation_DEVELOPMENT_FIT_V1.csv": "aa7bd27e6c5398966a8fed8247e375e82e887e27e4bf6daad6f9a9c3800f67e1",
+    "outputs/development_fit_v1/inference_summary_DEVELOPMENT_FIT_V1.json": "66b0a84de8963bf227bd511a97ab435830465fa6cdad0db3df6a42f511a27fcc",
+    "outputs/development/metrics_HISTORICAL_REPLAY_V1.csv": "e12d8f173595a9c4c896da1c1b6f6eac776ed35a85258866566cde5f391d31ed"
+  }
+}

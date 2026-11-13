@@ -1,0 +1,3 @@
+Variable,Description,Frequency,Units,Coverage,Availability Convention,Evaluation Role
+target_commercial_bank_deposits_nrb,Commercial bank total deposits held at Nepal Rastra Bank (NRB),Monthly,NPR million,2004-07 to 2026-07 (265 obs),Assumed 2-month release lag (c = t - 2),Primary target series (y_t)
+nrb_net_omo_injection,Net NRB open market operation liquidity injection (Outright Purchase + FX Purchase - Outright Sale - FX Sale),Monthly,NPR million,2004-07 to 2026-07 (265 obs),Known through cutoff c = t - 2; held constant at x_c over horizon,Exogenous policy feature (x_t)

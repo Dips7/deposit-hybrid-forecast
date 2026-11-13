@@ -1,0 +1,34 @@
+{
+  "status": "COMPLETED_SCORED",
+  "run_id": "DEVELOPMENT_FIT_V1",
+  "cohort": "historical_development",
+  "provenance_mode": "AUTHENTICATED_COMMITTED_RUN",
+  "scoring_stage": "INFERENTIAL_HYPOTHESIS_TESTING",
+  "active_evaluation_id": "EVAL_DEVELOPMENT_FIT_V1_historical_development_1a0b1a515468",
+  "active_revision_id": "1a0b1a515468",
+  "total_evaluation_vintages_recorded": 1,
+  "evaluation_history": [
+    {
+      "evaluation_id": "EVAL_DEVELOPMENT_FIT_V1_historical_development_1a0b1a515468",
+      "revision_id": "1a0b1a515468",
+      "timestamp_utc": "2026-10-30T03:37:07.231490+00:00",
+      "targets_sha256": "1c4fd442159655ffa9d848119b22d1c35dba0df2873de650065850b5e5546845",
+      "target_vintage_id": "UNVERIFIED_LOCAL_FILE_VINTAGE_STATUS_UNKNOWN",
+      "release_evidence": "UNVERIFIED_NO_OFFICIAL_RELEASE_EVIDENCE",
+      "status": "COMPLETED_SCORED",
+      "manifest_file": "outputs/development_fit_v1/evaluations/EVAL_DEVELOPMENT_FIT_V1_historical_development_1a0b1a515468/EVALUATION_MANIFEST.json"
+    }
+  ],
+  "last_updated_utc": "2026-10-30T03:37:07.231490+00:00",
+  "total_cohort_origins": 191,
+  "n_procedures_scored": 7,
+  "metrics_file": "outputs/development_fit_v1/metrics_DEVELOPMENT_FIT_V1.csv",
+  "evaluation_ledger": "outputs/development_fit_v1/evaluation_DEVELOPMENT_FIT_V1.csv",
+  "inference_summary_file": "outputs/development_fit_v1/inference_summary_DEVELOPMENT_FIT_V1.json",
+  "evaluation_manifest": "outputs/development_fit_v1/EVALUATION_MANIFEST_DEVELOPMENT_FIT_V1.json",
+  "target_source": "canonical_sealed_targets:1c4fd4421596",
+  "target_file_sha256": "1c4fd442159655ffa9d848119b22d1c35dba0df2873de650065850b5e5546845",
+  "target_vintage_id": "UNVERIFIED_LOCAL_FILE_VINTAGE_STATUS_UNKNOWN",
+  "release_evidence": "UNVERIFIED_NO_OFFICIAL_RELEASE_EVIDENCE",
+  "message": "Evaluation outcomes observed and validated. Summary metrics computed successfully."
+}

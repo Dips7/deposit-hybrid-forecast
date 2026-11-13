@@ -1,0 +1,9 @@
+Model Family,Parameter,Specification
+SARIMA / SARIMAX,"Candidate Orders (p,d,q)x(P,D,Q)_12","(0,1,2)x(0,1,1), (2,1,2)x(0,1,1), (2,1,0)x(1,1,0), (0,1,2)x(1,1,1), (1,0,2)x(0,1,1), (1,1,2)x(0,1,1), (0,0,2)x(0,1,1), (0,1,1)x(1,1,1), (1,1,1)x(0,1,1)"
+SARIMA / SARIMAX,Trend & Seasonality,"Linear trend c, seasonal period s = 12"
+SARIMA / SARIMAX,Estimation & Solvers,"Exact maximum likelihood, maxiter = 50, root margin = 0.01"
+SARIMAX,Exogenous Lags,"Net OMO injection lags 0, 1, 2"
+SARIMAX,Future Exogenous Path,Constant-level path held at x_c over forecast horizon
+XGBoost,Candidate Hyperparameter Grid,"learning_rate in {0.03, 0.10} x max_depth in {2, 3, 4}; n_estimators = 100"
+XGBoost,Stochastic Subsampling,"subsample = 0.8, colsample_bytree = 0.8, random_state = 42"
+XGBoost,Inner Validation Tuning,24 rolling in-fold validation origin pairs; minimum MAE selection
